@@ -1,0 +1,39 @@
+{
+  "name": "deploy-static-site",
+  "version": "1.0.0",
+  "description": "Deploy a static site to S3 as a website via CLI or Node.",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy-static-site": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andr3wHur5t/deploy-static-site.git"
+  },
+  "keywords": [
+    "S3",
+    "website",
+    "deploy",
+    "upload",
+    "static",
+    "quick",
+    "cli",
+    "package",
+    "CDN"
+  ],
+  "author": "Andr3wHur5t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andr3wHur5t/deploy-static-site/issues"
+  },
+  "homepage": "https://github.com/Andr3wHur5t/deploy-static-site#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "debug": "^2.3.3",
+    "glob": "^7.1.1",
+    "mime": "^1.3.4"
+  }
+}
